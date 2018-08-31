@@ -10,7 +10,7 @@ public class StringNode extends AbstractNode {
 
     public static Node createStringNode(String text, boolean shouldDecode) {
         if (shouldDecode) {
-            return new DecodingNode(text);
+            return new DecodingNode(new StringNode(text));
         }
         return new StringNode(text);
     }

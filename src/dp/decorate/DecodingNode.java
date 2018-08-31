@@ -6,10 +6,8 @@ package dp.decorate;
 public class DecodingNode implements Node{
     private Node delegate;
 
-    public DecodingNode(String text) {
-        delegate = new StringNode();
-
-        setText(text);
+    public DecodingNode(Node newDelegate) {
+        delegate = newDelegate;
     }
 
     @Override

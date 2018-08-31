@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfd4e4cb-6b17-4099-96d1-be7af37a6899" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/dp/decorate/DecodingNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/decorate/DecodingNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/decorate/StringNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/decorate/StringNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="DecoreateDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecoreateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="305">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
@@ -49,8 +50,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dp/decorate/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -111,12 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecodingNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DecodingNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecodingNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
@@ -132,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringNode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dp/decorate/StringNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding>
                 <element signature="e#180#181#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -187,8 +190,8 @@
         <option value="$PROJECT_DIR$/src/dp/decorate/Parser.java" />
         <option value="$PROJECT_DIR$/src/dp/decorate/Node.java" />
         <option value="$PROJECT_DIR$/src/dp/decorate/AbstractNode.java" />
-        <option value="$PROJECT_DIR$/src/dp/decorate/StringNode.java" />
         <option value="$PROJECT_DIR$/src/dp/decorate/DecodingNode.java" />
+        <option value="$PROJECT_DIR$/src/dp/decorate/StringNode.java" />
       </list>
     </option>
   </component>
@@ -232,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Deco&#9;FILE&#9;file:///Users/yuan/IdeaProjects/DP/src/dp/decorate/DecodingNode.java&#10;Decod&#9;FILE&#9;file:///Users/yuan/IdeaProjects/DP/src/dp/decorate/DecodingNode.java" />
+    <property name="SearchEverywhereHistoryKey" value="Pa&#9;FILE&#9;file:///Users/yuan/IdeaProjects/DP/src/dp/decorate/Parser.java&#10;Deco&#9;FILE&#9;file:///Users/yuan/IdeaProjects/DP/src/dp/decorate/DecodingNode.java&#10;Decod&#9;FILE&#9;file:///Users/yuan/IdeaProjects/DP/src/dp/decorate/DecodingNode.java" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
@@ -441,10 +444,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecoreateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecodingNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/decorate/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
@@ -459,22 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecoreateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dp/decorate/StringNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
             <element signature="e#180#181#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -482,25 +506,6 @@
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
             <element signature="e#748#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dp/decorate/DecodingNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
