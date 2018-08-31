@@ -25,7 +25,7 @@ public class Parser {
             if (nodeText.contains(">") || nodeText.contains("<")) {
                 node = new Tag(nodeText);
             } else {
-                node = new StringNode(nodeText, shouldDecodeNodes);
+                node = StringNode.createStringNode(nodeText, shouldDecodeNodes);
             }
 
             if (node!= null) {

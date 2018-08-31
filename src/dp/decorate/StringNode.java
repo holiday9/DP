@@ -1,22 +1,25 @@
 package dp.decorate;
 
 public class StringNode extends AbstractNode {
-    String text;
-    private boolean shouldDecode;
+    public StringNode() {}
 
     // STEP 1 加入回车解析控制参数
-    public StringNode(String text, boolean shouldDecode) {
+    private StringNode(String text) {
         this.text = text;
-        this.shouldDecode = shouldDecode;
+    }
+
+    public static Node createStringNode(String text, boolean shouldDecode) {
+        if (shouldDecode) {
+            return new DecodingNode(text);
+        }
+        return new StringNode(text);
     }
 
     public String toPlainTextString() {
-        String result = text;
-        if (shouldDecode)
-            result = Translate.decode(result);
+        return text;
+    }
 
-        // STEP 2 执行回车转义
-
-        return result;
+    public boolean isShouldDecode() {
+        return false;
     }
 }
